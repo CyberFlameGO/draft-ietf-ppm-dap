@@ -1742,7 +1742,8 @@ shares for aggregation or coerce an aggregator into diverting from the
 protocol specified (e.g., by divulging its input shares to the attacker).
 
 In the presence of this adversary, DAP aims to achieve the privacy and
-robustness security goals described in {{!VDAF, Section 9}}.
+robustness security goals described in {{!VDAF}}'s Security Considerations
+section.
 
 Currently, the specification does not achieve these goals. In particular, there are several open
 issues that need to be addressed before these goals are met. Details for each issue are below.
